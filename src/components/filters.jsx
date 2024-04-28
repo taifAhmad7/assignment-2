@@ -57,7 +57,7 @@ const Filters = ({ onFilterChange, setShowSidebar }) => {
           <p className="text-gray-500 text-sm">Select Dynasty</p>
           <p>All</p>
         </div>
-        <div className="mb-10">
+        <div className="mb-10 w-full lg:w-[460px]">
           <p className="text-gray-500 text-sm">Select Period</p>
           <Slider
             getAriaLabel={() => 'Temperature range'}

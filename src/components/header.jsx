@@ -6,7 +6,7 @@ const Header = ({ setShowSidebar, onSearchInputChange }) => {
       <label className="input input-bordered flex items-center gap-2 mr-8">
         <input
           type="text"
-          className="grow w-[800px]"
+          className="grow w-36 lg:w-[800px]"
           placeholder="Search from the world's antique collection"
           onChange={(e) => onSearchInputChange(e.target.value)}
         />

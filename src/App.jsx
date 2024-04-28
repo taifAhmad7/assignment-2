@@ -13,7 +13,8 @@ function App() {
   const onSearchInputChange = (searchInput) => {
     setFilteredCards(
       CARDS_DATA.filter((card) => {
-        return card.title.includes(searchInput);
+        const titleLower = card.title.toLowerCase();
+        return titleLower.includes(searchInput);
       })
     );
   };

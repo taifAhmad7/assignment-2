@@ -21,7 +21,7 @@ const Sidebar = ({ children, onFilterChange, showSidebar, setShowSidebar }) => {
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <div className="menu p-4 w-[500px] min-h-full bg-base-200 text-base-content">
+        <div className="menu p-4 w-full lg:w-[500px] min-h-full bg-base-200 text-base-content">
           <Filters
             onFilterChange={onFilterChange}
             setShowSidebar={setShowSidebar}
