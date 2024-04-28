@@ -24,7 +24,7 @@ const Header = ({ setShowSidebar, onSearchInputChange }) => {
         </svg>
       </label>
       <button
-        className="flex gap-2 bg-gray-300 px-4 py-2 rounded-md uppercase text-sm text-gray-600"
+        className="flex gap-2 bg-gray-300 hover:bg-gray-400 px-4 py-2 rounded-md uppercase text-sm text-gray-600"
         onClick={() => setShowSidebar(true)}
       >
         <FaFilter className="text-gray-600" />
