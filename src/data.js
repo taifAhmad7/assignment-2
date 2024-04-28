@@ -35,7 +35,7 @@ const CARDS_DATA = [
     title: 'Dharma',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod esse, maxime ducimus adipisci at vero animi repudiandae',
-    period: 10000,
+    period: 1000,
     image:
       'https://plus.unsplash.com/premium_photo-1678593494481-18a78d7ab852?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YnVkZGlzbSUyMHN0YXR1ZXxlbnwwfHwwfHx8MA%3D%3D',
   },
