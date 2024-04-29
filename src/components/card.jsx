@@ -11,7 +11,7 @@ const Card = ({ data }) => {
           <h2 className="card-title text-md font-normal text-gray-800">
             {title}
           </h2>
-          <p className="ml-20 text-gray-600 text-xs">{period} CE</p>
+          <p className="text-gray-600 text-xs text-end">{period} CE</p>
         </div>
         <p className="text-sm text-gray-500">{description}</p>
         <div className="card-actions justify-end"></div>
