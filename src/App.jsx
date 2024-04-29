@@ -14,7 +14,8 @@ function App() {
     setFilteredCards(
       CARDS_DATA.filter((card) => {
         const titleLower = card.title.toLowerCase();
-        return titleLower.includes(searchInput);
+        const searchInputLower = searchInput.toLowerCase();
+        return titleLower.includes(searchInputLower);
       })
     );
   };
